@@ -1,1 +1,10 @@
-
+name: Hello World
+on: workflow_dispatch
+jobs:
+  example-job:
+    runs-on: self-hosted
+    steps:
+      - name: example-step
+        run: echo "Hello World!"
+      - name: example-step2
+        run: pwd
