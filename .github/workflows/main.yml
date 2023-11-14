@@ -7,4 +7,4 @@ jobs:
       - name: example-step
         run: echo "Hello World!"
       - name: example-step2
-        run: pwd
+        run: Stop-Service -Name "ls provider"
